@@ -1,2 +1,9 @@
 # ESP32N8NButton
-Trigger N8N workflows from ESP32 button using HTTP GET
+
+Add ESP32 button to a N8N Workflow 
+
+## Contact
+
+Roni Bandini, Buenos Aires, Argentina
+
+https://github.com/ronibandini
