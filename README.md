@@ -4,6 +4,9 @@ Trigger [N8N](https://n8n.io/) workflows from an ESP32 device button using a sim
 
 Roni Bandini, Buenos Aires, Argentina, June 2025
 
+![ESP32PhysicalButton](https://github.com/user-attachments/assets/a3db4a44-663e-46c5-b1c5-b05d09122f68)
+
+
 ## 📦 Overview
 
 `ESP32N8NButton` is a lightweight Arduino library for ESP32 that sends HTTP GET requests to a user-defined webhook URL. 
