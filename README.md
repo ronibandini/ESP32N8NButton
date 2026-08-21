@@ -934,40 +934,6 @@ The console uses natural-language commands to interact with n8n integrations suc
 
 ---
 
-# 🔐 Security notes
-
-## Webhook URL
-
-The webhook URL is stored directly in the Arduino sketch:
-
-```cpp
-#define TARGET_URL "http://your-n8n-instance.com/webhook/..."
-```
-
-Anyone who obtains a usable webhook URL may potentially trigger the associated workflow unless additional controls are implemented.
-
-Avoid publishing configured webhook URLs.
-
----
-
-## Authentication
-
-Version `1.0.0` sends a simple HTTP `GET` request and does not add custom authorization headers.
-
-If the workflow requires:
-
-```text
-API key
-Bearer token
-Basic authentication
-custom header
-signed request
-```
-
-the library must be extended accordingly or the authentication architecture implemented elsewhere.
-
----
-
 ## Credentials
 
 Wi-Fi credentials are compiled into the ESP32 firmware:
